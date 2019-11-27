@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "Disable keyboard shortcuts",
+  "version": "1.0.0",
+  "description": "Disable arbitrary keyboard shortcuts",
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "author": "Benjamin Barenblat <bbaren@google.com>",
+  "background": {
+    "persistent": false,
+    "scripts" : ["background.js"]
+  },
+  "commands": {
+    "do-nothing0": { "description": "Do nothing" },
+    "do-nothing1": { "description": "Do nothing" },
+    "do-nothing2": { "description": "Do nothing" },
+    "do-nothing3": { "description": "Do nothing" },
+    "do-nothing4": { "description": "Do nothing" },
+    "do-nothing5": { "description": "Do nothing" },
+    "do-nothing6": { "description": "Do nothing" },
+    "do-nothing7": { "description": "Do nothing" },
+    "do-nothing8": { "description": "Do nothing" },
+    "do-nothing9": { "description": "Do nothing" }
+  },
+  "minimum_chrome_version": "33"
+}

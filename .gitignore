@@ -1,0 +1,8 @@
+# Editor backup files
+*~
+\#*
+.\#*
+.*.swp
+
+# Generated files
+*.zip
